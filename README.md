@@ -31,9 +31,17 @@ This project analyzes transactional e-commerce data (Online Retail / Online Reta
 
 ## How to use / install
 1. Clone the repo (or create a folder).  
+
 2. Put the dataset file (`online_retail_II.xlsx` or `online_retail.csv`) into the `data/` folder.  
+
 3. Create and activate a Python virtual env (recommended):  
    ```bash
    python -m venv venv
    source venv/bin/activate      # macOS / Linux
    venv\Scripts\activate         # Windows
+
+4. Install Dependencies
+`pip install -r requirements.txt`
+
+5. Open the notebook
+`jupyter notebook notebooks/analysis.ipynb` 
