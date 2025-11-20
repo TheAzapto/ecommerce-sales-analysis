@@ -1,0 +1,47 @@
+# -----------------------------------------
+# Python Virtual Environment (your venv)
+# -----------------------------------------
+ds/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# -----------------------------------------
+# Jupyter Notebooks
+# -----------------------------------------
+.ipynb_checkpoints/
+.jupyter/
+
+# -----------------------------------------
+# VSCode / Editors
+# -----------------------------------------
+.vscode/
+*.code-workspace
+
+# -----------------------------------------
+# Data Files
+# (Excluded so dataset is not committed)
+# -----------------------------------------
+data/
+!data/.gitkeep
+
+data/processed/
+
+# -----------------------------------------
+# Logs & temp files
+# -----------------------------------------
+*.log
+*.tmp
+*.temp
+*.DS_Store
+
+# -----------------------------------------
+# Python environment metadata
+# -----------------------------------------
+pip-log.txt
+pip-delete-this-directory.txt
